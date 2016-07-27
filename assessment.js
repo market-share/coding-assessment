@@ -12,13 +12,6 @@ countAdjacentSums([6, 7, 11, 2, 5, 10, 3], 13) => 3
 ******************************************************************************/
 function countAdjacentSums(arr, n){
  // your code here...
- var sum = 0;
- return arr.reduce(function(pre, cur) {
-   if ((pre + cur) === n) {
-     ++sum;
-   }
-   return sum;
- });
 }
 
 /******************************************************************************
